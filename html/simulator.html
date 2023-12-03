@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Camera Simulator</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sightFinderParent">
+            <img class="sightFinder" src="../assets/correctlyexposed_nobokeh.png" alt="Your Image Description">
+        </div>
+    
+        <div class="controls">
+            <div class="controlPanels">
+                <h1>Aperture</h1>
+                <input type="range" min="1" max="3" value="2" class="slider" id="apertureSlider">
+    
+                <div class="iconFlex">
+                    <div>
+                        <img class="apertureIcon" src="../assets/apertureSmall.png" alt="Small Aperture Icon">
+                    </div>
+    
+                    <div >
+                        <img class="apertureIcon" src="../assets/apertureMedium.png" alt="Medium Aperture Icon">
+                    </div>
+    
+                    <div>
+                        <img class="apertureIcon" src="../assets/apertureWide.png" alt="Large Aperture Icon">
+    
+                    </div>
+                </div>
+            </div>
+    
+            <div class="controlPanels">
+                <div>
+                    <h1>Light Meter</h1>
+                </div>
+    
+                <div>
+                    <div>
+                        <img class="lightMeter" src="../assets/lightMeter0.png" alt="Light Meter Reads 0">
+                    </div>
+        
+                    <div>
+                        <a href="polaroid.HTML">
+                            <button id="shutterButton">Shutter Button</button>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="controlPanels">
+                <h1>Shutter Speed</h1>
+                <input type="range" min="1" max="3" value="2" class="slider" id="shutterSlider">
+                <div class="shutterSpeedFlex">
+                    <div class="shutterSpeedIcon">
+                        <h3>1/1000th of a second</h3>
+                    </div>
+                    <div>
+                        <h3>1/60th of a second</h3>
+                    </div>
+                    <div class="shutterSpeedIcon">
+                        <h3>1/2 of a second</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/kursor"></script>
+    <script src="../js/camera.js"></script>
+</body>
+
+</html>
+

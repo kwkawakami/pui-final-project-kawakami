@@ -1,0 +1,3 @@
+new kursor({
+    color: '#ffffff'
+})
