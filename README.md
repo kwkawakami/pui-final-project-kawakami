@@ -1,6 +1,6 @@
 # pui-final-project-kawakami
 
-Kyle Kawakami Final Project PUI Fall '23
+Kyle Kawakami Final Project PUI Fall '23 Section A
 
 Github Repository Link: https://github.com/kwkawakami/pui-final-project-kawakami
 
