@@ -22,7 +22,7 @@ body {
     justify-content: flex-end;
 }
 
-.nextButton2{
+.nextButton2 {
     margin-right: 3%;
     display: flex;
     justify-content: flex-end;
@@ -37,7 +37,7 @@ button {
     color: white;
     padding: 10px 20px;
     font-size: 18px;
-    font-weight:bold;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     border-radius: 8px;
@@ -50,7 +50,7 @@ button:hover {
 }
 
 img {
-    width: 100%;
+    width:90%;
     height: auto;
 }
 
@@ -60,42 +60,44 @@ img {
     margin-top: 8%;
 }
 
-.graphicContainer{
-    margin-right: 6%
+.graphicContainer {
+    margin-right: 6%;
+    height: 50%;
+
 }
 
-.graphicContainerA{
+.graphicContainerA {
     width: 90%;
-    margin-right: 6%
+    height: auto;
+    margin-right: 6%;
 }
-
 
 p {
-    font-size: 220%;
+    font-size: 2vw; /* Adjusted for resizable font size based on viewport width */
     font-weight: bolder;
     margin: 0px;
     color: gray;
 }
 
-h1{
-    font-size: 150%;
+h1 {
+    font-size: 6vw;
 }
 
 @media only screen and (max-width: 600px) {
     .title {
-        font-size: 200%; /* Adjust the title font size for smaller screens */
+        font-size: 200%;
     }
 
     .content {
-        flex-direction: column; /* Stack content vertically on smaller screens */
-        align-items: center; /* Center align content on smaller screens */
+        flex-direction: column;
+        align-items: center;
     }
 
     h1 {
-        font-size: 120%; /* Adjust h1 font size for smaller screens */
+        font-size: 120%;
     }
 
     p {
-        font-size: 150%; /* Adjust paragraph font size for smaller screens */
+        font-size: 3vw; /* Adjusted for smaller screens */
     }
 }
