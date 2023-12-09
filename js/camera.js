@@ -108,47 +108,47 @@ document.addEventListener("DOMContentLoaded", function () {
         lightMeterElement.src = "../assets/" + lightMeterImage;
     }
     function changeA1() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A1.png";
     }
 
     function changeA2() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A2.png";
     }
 
     function changeA3() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A3.png";
     }
 
     function changeA4(){
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A4.png";
     }
 
     function changeA5() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A5.png";
     }
 
     function changeA6() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A6.png";
     }
 
     function changeA7() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A7.png";
     }
 
     function changeA8() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A8.png";
     }
 
     function changeA9() {
-        var imageElement = document.querySelector('img[alt="Your Image Description"]');
+        var imageElement = document.querySelector('img[alt="Well Exposed Photo of a Puppy in a park"]');
         imageElement.src = "../assets/A9.png";
     }
 
