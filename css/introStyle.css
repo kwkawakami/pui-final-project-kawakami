@@ -32,8 +32,8 @@ h3 {
 }
 
 button {
-    background-color: rgb(0, 162, 255);
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     font-size: 16px; /* Adjusted for smaller screens */
     font-weight: bold;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(0, 83, 131);
+    background-color: rgb(0, 162, 255);
     cursor: pointer; /* Revert to pointer on hover for better user experience */
 }
 
