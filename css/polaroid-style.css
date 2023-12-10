@@ -35,8 +35,8 @@ body {
     width: 150px; /* Set a fixed width for the buttons */
     height: 40px; /* Set a fixed height for the buttons */
     margin: 0 10px; /* Add margin between buttons */
-    background-color: rgb(0, 162, 255);
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 14px; /* Adjust the font size as needed */
     font-weight: bold;
     border: none;
@@ -45,7 +45,8 @@ body {
 }
 
 button:hover{
-    background: rgb(0, 83, 131);
+    background: rgb(0, 162, 255);
+    color: white;
     cursor: none;
 }
 
